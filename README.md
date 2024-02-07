@@ -33,7 +33,7 @@ cd spring-boot-basics
 4. Run docker
  ```bash
    mvn spring-boot:run
-
+```bash
    Once the Spring Boot application is running, you can perform the following CRUD operations:
 
 1. Create: Add a new customer to the database.
