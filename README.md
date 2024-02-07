@@ -22,27 +22,30 @@ Before running this project, ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/spring-boot-basics.git
 
-2. ```bash
+2. Navigate to directory
+ ```bash
 cd spring-boot-basics
 
-3. ```bash
-   docker-compose up -d
+3. start docker
 
-4. ```bash
+ ```bash
+   docker-compose up -d
+4. Run docker
+ ```bash
    mvn spring-boot:run
 
    Once the Spring Boot application is running, you can perform the following CRUD operations:
 
-Create: Add a new customer to the database.
-Read: Retrieve a list of all customers or fetch details of a specific customer by their ID.
-Update: Update the details of an existing customer.
-Delete: Delete a customer from the database by their ID.
-You can interact with the application using RESTful endpoints. Here are some examples:
+1. Create: Add a new customer to the database.
+2. Read: Retrieve a list of all customers or fetch details of a specific customer by their ID.
+3. Update: Update the details of an existing customer.
+4. Delete: Delete a customer from the database by their ID.
 
-GET /api/v1/customers: Retrieve all customers.
-GET /api/v1/customers/{id}: Retrieve details of a specific customer.
-POST /api/v1/customers: Add a new customer.
-PUT /api/v1/customers/{id}: Update an existing customer.
-DELETE /api/v1/customers/{id}: Delete a customer.
+You can interact with the application using RESTful endpoints. 
+1. GET /api/v1/customers: Retrieve all customers.
+2. GET /api/v1/customers/{id}: Retrieve details of a specific customer.
+3. POST /api/v1/customers: Add a new customer.
+4. PUT /api/v1/customers/{id}: Update an existing customer.
+5. DELETE /api/v1/customers/{id}: Delete a customer.
 
    
