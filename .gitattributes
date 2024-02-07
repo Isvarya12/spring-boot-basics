@@ -1,0 +1,19 @@
+# Set default behavior to automatically normalize line endings for all text files
+* text=auto
+
+# Explicitly declare files that should always be treated as text
+*.html text
+*.css text
+*.js text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+
+# Declare binary files that should not be modified
+*.jpg binary
+*.png binary
+*.gif binary
+*.jar binary
+*.war binary
+*.ear binary
